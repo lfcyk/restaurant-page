@@ -54,10 +54,10 @@ button.menu-item {
     padding-block: 10px;
 }
 
-button.menu-item:active {
+button.menu-item:hover {
     background-color: var(--san-juan);
 }
 
 button.active {
-    background-color: red;
+    background-color: var(--burnt-sienna);
 }
