@@ -1,0 +1,63 @@
+body {
+    background-color: var(--sunglow);
+    color: var(--san-juan);
+}
+
+:root {
+--san-juan: #2f4d65;
+--sunglow: #fbbb34;
+--rose-fog: #e8c6bd;
+--burnt-sienna: #ef6764;
+--copper-rust: #8b4944;
+--viking: #55bbdf;
+--my-pink: #d3a282;
+--driftwood: #b28d49;
+--energy-yellow: #fad454;
+}
+
+#restaurant-name {
+    max-width: fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+div.restaurant-details {
+    max-width: 350px;
+    margin: auto;
+}
+
+h2 {
+    margin:auto;
+    max-width: fit-content;
+    text-align: center;
+}
+
+nav#menubar {
+    margin: 0;
+    padding: 0;
+
+    max-width: fit-content;
+    margin:auto;
+    margin-bottom: 40px;
+}
+
+li#menu-item {
+    display: inline;
+}
+
+button.menu-item {
+    background-color: var(--viking);
+    color: white;
+    font-size: larger;
+    border: none;
+    padding-inline: 20px;
+    padding-block: 10px;
+}
+
+button.menu-item:active {
+    background-color: var(--san-juan);
+}
+
+button.active {
+    background-color: red;
+}
